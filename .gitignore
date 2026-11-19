@@ -1,0 +1,10 @@
+node_modules/
+*.log
+dist/
+__pycache__/
+extensions/*/state.json
+extensions/*/state.json.tmp
+# Pylon's cache and its lock, and what away compiles itself into on first run.
+extensions/*/state.json*
+extensions/*/.build/
+.DS_Store
